@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = "তোমার_bot_token"  # এখানে BotFather থেকে নেওয়া টোকেন বসাও
+BOT_TOKEN = "BOT_TOKEN"  # এখানে BotFather থেকে নেওয়া টোকেন বসাও
 
 async def print_chat_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
